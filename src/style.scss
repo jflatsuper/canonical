@@ -1,0 +1,21 @@
+@import "node_modules/vanilla-framework";
+@include vanilla;
+.pow-card {
+  @include vf-highlight-bar(rgba(170, 51, 106, 0.9), top, true);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.title-author-group {
+  height: 175px;
+}
+.head-group {
+  height: 30px;
+  text-transform: uppercase !important;
+}
+body {
+  font-family: "Ubuntu";
+}
+.home-post {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
